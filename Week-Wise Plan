@@ -1,0 +1,113 @@
+Week-Wise Plan(Tentative)
+
+📅 WEEK 1: Project Setup & Planning
+
+✔ Define features and modules
+✔ Finalize tech stack and folder structure
+✔ Design wireframes/mockups (Figma or paper sketches)
+✔ Setup GitHub repository
+✔ Initialize React app & Express backend
+✔ Test frontend-backend connection (API ping)
+
+Output:
+
+Project folder ready
+Basic layout pages (Home, Login, Register)
+Backend “Hello World” running
+API tested using Postman
+────────────────────────────
+
+📅 WEEK 2: Authentication System
+
+✔ User registration (React form → Express → MongoDB)
+✔ User login with JWT or session
+✔ Secure private routes (middleware)
+✔ Basic navbar with login/logout toggle
+✔ Form validations (password match, email check)
+
+Output:
+
+Working Login/Register system
+User sessions saved
+Protected APIs
+────────────────────────────
+
+📅 WEEK 3: Post Lost/Found Items
+
+✔ Create item form (title, desc, date, location, category, image)
+✔ Use Multer to upload image to server
+✔ Save item details + image URL to MongoDB
+✔ Create item schema with Mongoose
+✔ Show user feedback: “Item posted successfully!”
+
+Output:
+
+Users can post lost/found items
+Data saved in MongoDB with image
+Form validations done
+────────────────────────────
+
+📅 WEEK 4: View Items & Search
+
+✔ Create Lost & Found item listing pages
+✔ Display cards/grid of items with image and basic info
+✔ Implement filter by status, date, location, etc.
+✔ Search bar (frontend + backend logic)
+
+Output:
+
+View Lost Items
+View Found Items
+Search & filter working
+────────────────────────────
+
+📅 WEEK 5: Claim Item System
+
+✔ Add “Claim” button to found items
+✔ Show form: “Why do you think this is yours?”
+✔ Save claim requests with user ID & item ID
+✔ Show claim requests in the founder's dashboard
+✔ Add approve/reject button (optional)
+
+Output:
+
+Users can claim items
+Claim logic stored in database
+Item status updates (pending, claimed, etc.)
+────────────────────────────
+
+📅 WEEK 6: User Dashboard
+
+✔ Create “My Posts” and “My Claims” section
+✔ Allow user to edit or delete their own items
+✔ Show posted items with current status
+✔ Optional: Add profile page (user info)
+
+Output:
+
+Personal dashboard working
+Edit/Delete functionality
+Clean navigation UI
+────────────────────────────
+
+📅 WEEK 7: Admin Dashboard & Moderation (Optional)
+
+✔ Admin login
+✔ View all users and items
+✔ Delete fake claims or reported content
+✔ Manage flagged items
+
+Output:
+
+Admin control panel
+Basic moderation flow
+────────────────────────────
+
+📅 WEEK 8: Final Touches & Deployment
+
+✔ Responsive design for mobile
+✔ Toasts/alerts for success & error messages
+✔ Deploy backend to Render
+✔ Deploy frontend to Vercel
+✔ Use MongoDB Atlas for production database
+✔ Final testing (Postman, browser)

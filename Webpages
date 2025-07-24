@@ -1,0 +1,153 @@
+Web-Pages
+
+🔵 USER SIDE PAGES STRUCTURE
+
+1. Home Page
+Path: /
+Sections:
+Navbar: Logo | Home | Browse | Login/Signup
+Hero Banner: Welcome message + CTA buttons (Post Lost / View Found)
+Search Bar: Search lost or found items directly
+Quick Stats: Cards showing items returned, users, etc.
+Recent Listings: Latest 4–6 lost/found items
+Success Stories: Carousel or testimonials
+Footer
+
+2. Login / Signup Page
+Path: /login and /signup
+Components:
+Form Toggle: Login ⬌ Signup
+Login Form: Email, Password
+Signup Form: Name, Email, Password, Confirm
+OAuth Buttons (Optional): Google/Facebook login
+Forgot Password? link
+
+3. User Dashboard
+Path: /dashboard
+Sections:
+Navbar
+Welcome User: Greeting with name
+Quick Links Cards:
+Post Lost Item
+Post Found Item
+My Posts
+Recent Activity: Timeline of user's actions
+
+4. Post Lost Item Page
+Path: /post-lost
+Form Fields:
+Item Name (Text)
+Description (Textarea)
+Location Lost (Text or Map Picker)
+Date Lost (Date picker)
+Category (Dropdown)
+Upload Image (File)
+Submit Button
+
+5. Post Found Item Page
+Path: /post-found
+Same as above with:
+
+Location Found
+Safe Keeping Status (Yes/No)
+
+6. Browse Lost Items
+Path: /lost-items
+Components:
+Filter Sidebar:
+Location, Date, Category
+Search Bar
+Item Cards Grid/List:
+Thumbnail + Title + Date + View More
+Pagination
+
+7. Browse Found Items
+Path: /found-items
+Same as Browse Lost but for found posts.
+
+
+8. Item Details Page
+Path: /item/:id
+Sections:
+Item Info: Title, images, posted by, description
+Details Block: Location, category, date, status
+Contact Button: Sends message or opens contact form
+Map (Optional): Location pin
+Similar Items: Suggest related posts
+
+9. My Posts Page
+Path: /my-posts
+Components:
+Tabs: Lost | Found
+Item Cards with:
+Edit Button
+Delete Button
+Mark as Resolved
+
+10. Claim/Contact Owner Page
+Path: /contact/:itemId
+Form:
+Your name (auto-filled)
+Message box (why you think it's yours)
+Optional proof upload
+Submit button
+
+11. FAQs / Help Page
+Path: /faq
+Structure:
+Accordion-style Q&A
+Categories: General, Posting, Security, Reporting
+
+12. About Us Page
+Path: /about
+Sections:
+Project Overview
+Team Members / Credits
+Vision & Mission
+
+13. Contact Us Page
+Path: /contact
+Form:
+Name
+Email
+Message
+Submit Button
+
+
+🟠 ADMIN SIDE PAGES STRUCTURE
+1. Admin Login
+Path: /admin/login
+Username
+Password
+Secure access
+
+2. Admin Dashboard
+Path: /admin/dashboard
+Components:
+Total Users
+Total Items
+Reports
+Quick access buttons (Users, Items, Reports)
+
+3. Manage Users
+Path: /admin/users
+Table of users:
+Name, Email, Joined Date
+Delete / Ban Button
+
+4. Manage Items
+Path: /admin/items
+Table/List of items
+Filter by status: Lost/Found/Resolved
+Admin actions: Delete, Mark Resolved
+
+5. Reported Posts
+Path: /admin/reports
+View flagged posts
+View reason & user report
+Take action: Dismiss / Remove / Warn user
+
+6. Messages
+Path: /admin/messages
+Inbox view
+From contact form messages

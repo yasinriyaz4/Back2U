@@ -1,0 +1,19 @@
+Back2U/
+│
+├── backend/
+│   ├── server.js
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── middleware/
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   └── App.js
+│
+├── README.md
+└── package.json
